@@ -71,5 +71,5 @@ create table spotify (
 14. Find tracks where the energy-to-liveness ratio is greater than 1.2.
 15. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
 
-The complete SQL solutions are available in [netflix solutions.sql]()
+The complete SQL solutions are available in [spotify_solutions.sql](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/spotify_solutions.sql)
 
