@@ -120,5 +120,13 @@ The execution plan helped identify how PostgreSQL processed the query before any
 - **PostgreSQL** – Database management system used for storing and querying the dataset.
 - **SQL** – Used for database creation, data manipulation, exploratory data analysis, and advanced querying with DDL, DML, joins, subqueries, CTEs, window functions, and query optimization.
 - **pgAdmin 4** – SQL client used for database administration and query execution.
+
+## Conclusion
+
+This project demonstrates the practical application of SQL for exploring and analyzing Spotify music data. By solving business-oriented problems, performing exploratory data analysis, applying advanced SQL techniques, and optimizing query performance, the project highlights how SQL can be used to extract meaningful insights and improve database efficiency.
+
+## Author - Sahil Gupta
+
+This project demonstrates my SQL skills by applying data analysis techniques to solve business-oriented problems using the Spotify dataset. It highlights my ability to perform exploratory data analysis, implement advanced SQL concepts, and optimize query performance to extract meaningful insights from real-world data.
   
 
