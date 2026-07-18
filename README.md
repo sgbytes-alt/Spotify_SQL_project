@@ -73,3 +73,14 @@ create table spotify (
 
 The complete SQL solutions are available in [`spotify_solutions.sql`](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/spotify_solutions.sql)
 
+## Query Optimization
+
+To evaluate and improve query performance, an initial performance analysis was conducted using PostgreSQL's `EXPLAIN` statement.
+The query retrieved tracks based on the artist column, and the execution plan provided the following performance metrics:
+
+- Execution Time: 7 ms  Planning Time: 0.17 ms
+The execution plan helped identify how PostgreSQL processed the query before any optimization techniques were applied.
+- Execution Plan Before Optimization:
+
+![]()
+
