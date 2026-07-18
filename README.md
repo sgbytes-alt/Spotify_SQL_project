@@ -108,5 +108,9 @@ The execution plan helped identify how PostgreSQL processed the query before any
 
 	- The graph below compares the query performance before and after creating an index on the artist column. It clearly
    demonstrates the improvement in query efficiency achieved through indexing. The comparison highlights a substantial reduction in both execution time and planning time, illustrating the effectiveness of query optimization.
+   
    - Performance Comparison (Before vs. After Indexing):
+
+	![](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/graphical%20representation%20before%20index.png)
+	![](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/graphical%20representation%20before%20index.png)
 
