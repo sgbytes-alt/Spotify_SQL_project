@@ -100,4 +100,5 @@ The execution plan helped identify how PostgreSQL processed the query before any
       
    The reduced execution time demonstrates the effectiveness of indexing in optimizing queries that frequently filter data based
    on the artist column.
+   ![]()
 
