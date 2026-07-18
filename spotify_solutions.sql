@@ -165,8 +165,13 @@ create table spotify (
 	from spotify
 	group by 1,2,3)
 	select track, cum_sum from cte;
-	
-	
-	
+
+-- Query Optimimzation 
+ explain analyze -- et = 8.312ms pt = 0.166ms
+ select artist, track, views from spotify
+ where artist = 'Gorillaz' and 
+ most_playedon = 'Youtube'
+ order by stream desc 
+ limit 25;
 	
 	
