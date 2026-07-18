@@ -84,3 +84,20 @@ The execution plan helped identify how PostgreSQL processed the query before any
 
 ![](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/Query%20Before%20Optimization.png)
 
+- **Index Creation**
+
+- To optimize query execution, an index was created on the `artist` column. Indexing this frequently queried column enables PostgreSQL to retrieve matching records more efficiently, improving overall query performance.
+- **SQL command** for creating the index:
+   ```sql
+      CREATE INDEX idx_artist ON spotify_tracks(artist);
+   ```
+-  Performance Analysis After Indexing
+	-  After creating the index on the artist column, the same query was executed again to evaluate the impact on performance.
+    The updated execution plan showed a significant improvement in query efficiency:
+    
+    - Execution Time: **0.153 ms**
+    - Planning Time: **0.152 ms**
+      
+   The reduced execution time demonstrates the effectiveness of indexing in optimizing queries that frequently filter data based
+   on the artist column.
+
