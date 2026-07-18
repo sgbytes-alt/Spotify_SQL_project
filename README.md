@@ -112,5 +112,13 @@ The execution plan helped identify how PostgreSQL processed the query before any
    - Performance Comparison (Before vs. After Indexing):
 
 	![](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/graphical%20representation%20before%20index.png)
-	![](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/graphical%20representation%20before%20index.png)
+
+	![](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/graphical%20representation%20after%20index.png)
+
+## Tech Stack
+
+- **PostgreSQL** – Database management system used for storing and querying the dataset.
+- **SQL** – Used for database creation, data manipulation, exploratory data analysis, and advanced querying with DDL, DML, joins, subqueries, CTEs, window functions, and query optimization.
+- **pgAdmin 4** – SQL client used for database administration and query execution.
+  
 
