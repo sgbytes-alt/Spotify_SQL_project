@@ -78,7 +78,8 @@ The complete SQL solutions are available in [`spotify_solutions.sql`](https://gi
 To evaluate and improve query performance, an initial performance analysis was conducted using PostgreSQL's `EXPLAIN` statement.
 The query retrieved tracks based on the artist column, and the execution plan provided the following performance metrics:
 
-- Execution Time: 7 ms  Planning Time: 0.17 ms
+- Execution Time: 303.036 ms
+- Planning Time: 7.850 ms
 The execution plan helped identify how PostgreSQL processed the query before any optimization techniques were applied.
 - Execution Plan Before Optimization:
 
@@ -92,13 +93,20 @@ The execution plan helped identify how PostgreSQL processed the query before any
       CREATE INDEX idx_artist ON spotify_tracks(artist);
    ```
 -  Performance Analysis After Indexing
-	-  After creating the index on the artist column, the same query was executed again to evaluate the impact on performance.
+	-  After creating the index on the `artist` column, the same query was executed again to evaluate the impact on performance.
     The updated execution plan showed a significant improvement in query efficiency:
     
-    - Execution Time: **0.153 ms**
-    - Planning Time: **0.152 ms**
+    - Execution Time: **1.275 ms**
+    - Planning Time: **3.169 ms**
       
    The reduced execution time demonstrates the effectiveness of indexing in optimizing queries that frequently filter data based
    on the artist column.
-   ![]()
+   
+   ![](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/Query%20After%20Optimization.png)
+   
+- Graphical Performance Comparison
+
+	- The graph below compares the query performance before and after creating an index on the artist column. It clearly
+   demonstrates the improvement in query efficiency achieved through indexing. The comparison highlights a substantial reduction in both execution time and planning time, illustrating the effectiveness of query optimization.
+   - Performance Comparison (Before vs. After Indexing):
 
