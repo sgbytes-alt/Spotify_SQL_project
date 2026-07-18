@@ -82,5 +82,5 @@ The query retrieved tracks based on the artist column, and the execution plan pr
 The execution plan helped identify how PostgreSQL processed the query before any optimization techniques were applied.
 - Execution Plan Before Optimization:
 
-![]()
+![](https://github.com/sgbytes-alt/Spotify_SQL_project/blob/main/Query%20Before%20Optimization.png)
 
